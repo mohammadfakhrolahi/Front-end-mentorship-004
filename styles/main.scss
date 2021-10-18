@@ -1,0 +1,11 @@
+@import "./utils/colors.scss";
+@import url(./base/reset.css);
+@import url(./base/typography.css);
+@import "./utils/variables.scss";
+
+.overview {
+    width: 100%;
+    height: 120vh;
+    background: url(../images/10.jpg) center/cover no-repeat;
+    z-index: -1;
+}

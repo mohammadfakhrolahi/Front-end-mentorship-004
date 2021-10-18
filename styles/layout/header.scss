@@ -1,0 +1,56 @@
+@import '../utils/colors.scss';
+@import url(../base/reset.css);
+@import url(../base/typography.css);
+@import '../utils/variables.scss';
+
+// ----- start Header -----
+#main-header {
+  width: 100%;
+  @include display-jBetween-iCenter();
+  padding: 3rem 5rem;
+  position:absolute;
+  z-index: 1;
+
+  #logo {
+    color: $main-color;
+    font: {
+      size: 2.5rem;
+      weight: 700;
+      family: Raleway;
+    }
+  }
+}
+
+#main-nav-container {
+  #main-nav {
+    @include display-jBetween-iCenter();
+
+    .nav-item {
+      margin: 0 2.5rem;
+
+      a {
+        color: $main-color;
+        font: {
+          size: 1.6rem;
+          weight: 500;
+        }
+      }
+    }
+  }
+}
+
+#icons-nav-container {
+  #icons-nav {
+    width: 100%;
+    @include display-jBetween-iCenter();
+
+    li {
+      margin-left: 2.5rem;
+
+      a {
+        font-size: 1.6rem;
+        color: $main-color;
+      }
+    }
+  }
+}

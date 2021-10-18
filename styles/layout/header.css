@@ -1,0 +1,47 @@
+@import url(../base/reset.css);
+@import url(../base/typography.css);
+#main-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 5rem;
+  position: absolute;
+  z-index: 1;
+}
+#main-header #logo {
+  color: #463232;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: Raleway;
+}
+
+#main-nav-container #main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main-nav-container #main-nav .nav-item {
+  margin: 0 2.5rem;
+}
+#main-nav-container #main-nav .nav-item a {
+  color: #463232;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+#icons-nav-container #icons-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#icons-nav-container #icons-nav li {
+  margin-left: 2.5rem;
+}
+#icons-nav-container #icons-nav li a {
+  font-size: 1.6rem;
+  color: #463232;
+}
+
+/*# sourceMappingURL=header.css.map */
