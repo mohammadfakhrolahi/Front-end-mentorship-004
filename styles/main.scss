@@ -52,9 +52,79 @@
 
       // Button: VIEW DETAIL
       .button {
-          @include button-brown();
-          margin-top: 8rem;
+        @include button-brown();
+        margin-top: 8rem;
+        letter-spacing: 0.2rem;
       }
     }
   }
 }
+
+// Lenders Containe: SOME OF OUR LENDERS
+#lenders-container {
+  @include display-column-ac-center();
+  background: $light-orange;
+  padding: 3.5rem;
+
+  .lenders-header {
+    margin-bottom: 3rem;
+    color: $main-color;
+    font: {
+      size: 2.2rem;
+      weight: 600;
+    }
+    letter-spacing: 0.2rem;
+    text-align: center;
+  }
+
+  // 
+  .lenders-logo {
+    @include display-j-between-i-center();
+
+    .lender-list {
+      width: 80%;
+      @include display-j-between-i-center();
+
+      #chase {
+        width: 140px;
+        height: 25px;
+        background: url(../logos/chase-s.png) center/cover no-repeat;
+      }
+
+      #asana {
+        width: 130px;
+        height: 25px;
+        background: url(../logos/asana-s.png) center/cover no-repeat;
+      }
+
+      #google {
+        width: 128px;
+        height: 42px;
+        background: url(../logos/google-s.png) center/cover no-repeat;
+      }
+
+      #buzzfeed {
+        width: 130px;
+        height: 23px;
+        background: url(../logos/buzzfeed-s.png) center/cover no-repeat;
+      }
+
+      #toggle {
+        width: 110px;
+        height: 38px;
+        background: url(../logos/toggle-s.png) center/cover no-repeat;
+      }
+
+      #walmart {
+        width: 128px;
+        height: 67px;
+        background: url(../logos/walmart.png) center/cover no-repeat;
+      }
+    }
+  }
+}
+
+// About Us Section
+// .main-section {
+
+// }
