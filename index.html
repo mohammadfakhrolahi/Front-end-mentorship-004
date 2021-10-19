@@ -1,119 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles/main.css">
-        <link rel="stylesheet" href="./styles/layout/header.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Protecting The Beauty</title>
-    </head>
-    <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/layout/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Protecting The Beauty</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <a href="#" id="logo">WILDLING</a>
+      <nav id="main-nav-container">
+        <ul id="main-nav">
+          <li class="nav-item">
+            <a href="#">Manufacturing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Packaging</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Farms</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">
+              <a href="#">Delivery</a>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div id="icons-nav-container">
+        <ul id="icons-nav">
+          <li>
+            <a href="#">
+              <i class="fas fa-user"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fas fa-bars"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="overview">
+        <h1 id="overview-title">protecting the beauty!</h1>
 
-        <header id="main-header">
-
-                <a href="#" id="logo">WILDLING</a>
-            <nav id="main-nav-container">
-                <ul id="main-nav">
-                    <li class="nav-item">
-                        <a href="#">Manufacturing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Packaging</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Farms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">
-                            <a href="#">Delivery</a>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div id="icons-nav-container">
-                <ul id="icons-nav">
-                    <li>
-                        <a href="#">
-                            <i class="fas fa-user"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                    </li>
-                </ul>
+        <div id="overview-content">
+          <div class="content-right">
+            <div class="explanation">
+              <p class="explanation-paragraph main-paragraph">
+                It increases circulation and improves lymphatic function,
+                resulting in a naturally dewy, glowing complexion.
+              </p>
+              <p class="explanation-paragraph main-paragraph">
+                Gua Sha can also be used to prevent and clear acne, decongesting
+                the skin and lessening inflammation.
+              </p>
             </div>
-        </header>
-        <main>
-            <section class="overview">
-                    <h1 id="overview-title">protecting the beauty!</h1>
 
-                <div id="overview-content">
-                    <div class="content-right">
-                        <div class="explanation">
-                            <p class="explanation-paragraph">It increases circulation and improves lymphatic function, 
-                                resulting in a naturally dewy, glowing complexion.</p>
-                            <p class="explanation-paragraph">
-                                Gua Sha can also be used to prevent and clear acne, decongesting the skin and lessening inflammation.
-                            </p>
-                        </div>
+            <div class="search-box">
+              <input type="text" class="search" placeholder="Search here..." />
+              <button type="button" class="search-button">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
 
-                        <div class="search-box">
-                            <input type="text" class="search" placeholder="Search here...">
-                            <button type="button" class="search-button">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </div>
+            <button type="button" class="button">VIEW DETAIL</button>
+          </div>
 
-                        <button type="button" class="button">VIEW DETAIL</button>
-                    </div>
-
-                    <!-- <div>
+          <!-- <div>
                         <p>The best for</p>
                         <p>It can also be used to prevent & clear acne, decongesting skin.</p>
                     </div>                     -->
-                </div>
-            </section>
+        </div>
+      </section>
 
-            <section id="lenders-container">
-                <h3 class="lenders-header">SOME OF OUR LENDERS </h3>
-                <div class="lenders-logo">
-                    <ul class="lender-list">
-                        <li>
-                            <svg id="chase"></svg>
-                        </li>
-                        <li>
-                            <svg id="asana"></svg>
-                        </li>
-                        <li>
-                            <svg id="google"></svg>
-                        </li>
-                        <li>
-                            <svg id="buzzfeed"></svg>
-                        </li>
-                        <li>
-                            <svg id="toggle"></svg>
-                        </li>
-                        <li>
-                            <svg id="walmart"></svg>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+      <section id="lenders-container">
+        <h3 class="lenders-header">SOME OF OUR LENDERS</h3>
+        <div class="lenders-logo">
+          <ul class="lender-list">
+            <li>
+              <svg id="chase"></svg>
+            </li>
+            <li>
+              <svg id="asana"></svg>
+            </li>
+            <li>
+              <svg id="google"></svg>
+            </li>
+            <li>
+              <svg id="buzzfeed"></svg>
+            </li>
+            <li>
+              <svg id="toggle"></svg>
+            </li>
+            <li>
+              <svg id="walmart"></svg>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-            <section class="main-section">
+      <section class="main-section">
+        <div class="left-section section-side">
+          <h2 class="section-header">about us</h2>
+          <p class="main-paragraph">
+            Improves lymphatic function, resulting in a naturally dewy, glowing
+            complexion.
+          </p>
+          <button type="button" class="button">BUY NOW</button>
+          <img class="main-image" />
+        </div>
 
-            </section>
-        </main>
-    </body>
+        <div class="right-section section-side">
+          <img class="main-image"/>
+          <p class="main-paragraph">
+            Gua Sha increases circulation and improves lymphatic function,
+            resulting in a naturally dewy, glowing complexion.... Gua Sha can
+            also be used to prevent and clear acne, decongesting the skin and
+            lessening inflammationled ask possible mistress relation elegance
+            eat likewise debating. By message or am nothing amongst chiefly
+            address. The its enable direct men depend highly. Ham windows
+            sixteen who inquiry fortune demands.
+          </p>
+          <button type="button" class="button-white">READ MORE</button>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

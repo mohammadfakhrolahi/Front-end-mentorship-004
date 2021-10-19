@@ -4,6 +4,7 @@
 // Utils
 @import './utils/colors.scss';
 @import './utils/variables.scss';
+@import './utils/utils.scss';
 // Components
 @import './components/buttons.scss';
 @import './components/input.scss';
@@ -30,7 +31,7 @@
   #overview-content {
     @include display-jBetween-iCenter();
     margin-top: 13rem;
-    padding-left: 8rem;
+    padding-left: 14rem;
 
     // Right content
     .content-right {
@@ -40,7 +41,6 @@
         .explanation-paragraph {
           margin-bottom: 2rem;
           color: $main-color;
-          font-weight: 500;
         }
       }
 
@@ -52,9 +52,7 @@
 
       // Button: VIEW DETAIL
       .button {
-        @include button-brown();
         margin-top: 8rem;
-        letter-spacing: 0.2rem;
       }
     }
   }
@@ -125,6 +123,31 @@
 }
 
 // About Us Section
-// .main-section {
+.main-section {
+  @include display-j-between-a-center();
+  padding: 5rem 14rem;
 
-// }
+  // Left side
+  .left-section {
+
+    .section-header {
+        margin-top: 4rem;
+    }
+    
+    .main-image {
+      background: url(../images/1111.jpg) center/cover no-repeat;
+    }
+  }
+  // Right side
+  .right-section {
+
+    .main-image {
+      background: url(../images/77.jpg) center/cover no-repeat;
+      
+    }
+
+    .main-paragraph {
+      margin-top: 4rem;
+    }
+  }
+}  

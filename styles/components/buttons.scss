@@ -4,11 +4,34 @@
 // Utils
 @import '../utils/colors.scss';
 @import '../utils/variables.scss';
+@import '../utils/utils.scss';
+
+button {
+  letter-spacing: 0.2rem;
+}
 
 // Big Brown Button
-@mixin button-brown {
+.button {
   background: $main-color;
   color: $white;
   padding: 1rem 4rem;
+  margin-top: 4rem;
   font-size: 1.5rem;
+  
+  letter-spacing: 0.2rem;
+  box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
+}
+
+// Big White Button
+.button-white {
+  background: $white;
+  color: $main-color;
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  border: solid 2px  $main-color;
+  font: {
+    size: 1.5rem;
+    weight: 500;
+  }
+  letter-spacing: 0.2rem;
 }

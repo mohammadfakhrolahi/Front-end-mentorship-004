@@ -1,17 +1,30 @@
 @mixin display-jBetween-iCenter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @mixin display-j-between-i-center {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @mixin display-column-ac-center {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+@mixin display-column-j-center-a-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin display-j-between-a-center {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }

@@ -1,0 +1,41 @@
+//Base
+@import url(../base/typography.css);
+@import url(../base/reset.css);
+// Utils
+@import '../utils/colors.scss';
+@import '../utils/variables.scss';
+
+// Section Side
+.section-side {
+    width: 50%;
+}
+
+.left-section {
+    padding-right: 8rem;
+}
+
+.right-section {
+    padding-right: 8rem;
+}
+
+// Image In Section
+.main-image {
+    width: 100%;
+    height: 80vh;
+    margin-top: 8rem;
+}
+
+// H2
+.section-header {
+    color: $main-color;
+    font: {
+        size: 7rem;
+        weight: 500;
+    }
+}
+
+// Main Paragraph
+.main-paragraph {
+    color: $paragraph-color;
+    font-weight: 500;
+}

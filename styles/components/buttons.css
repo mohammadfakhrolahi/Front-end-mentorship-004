@@ -1,4 +1,59 @@
 @import url(../base/reset.css);
 @import url(../base/typography.css);
+@import url(../base/typography.css);
+@import url(../base/reset.css);
+.section-side {
+  width: 50%;
+}
+
+.left-section {
+  padding-right: 8rem;
+}
+
+.right-section {
+  padding-right: 8rem;
+}
+
+.main-image {
+  width: 100%;
+  height: 80vh;
+  margin-top: 8rem;
+}
+
+.section-header {
+  color: #463232;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.main-paragraph {
+  color: #7d7d7d;
+  font-weight: 500;
+}
+
+button {
+  letter-spacing: 0.2rem;
+}
+
+.button {
+  background: #463232;
+  color: #fff;
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
+}
+
+.button-white {
+  background: #fff;
+  color: #463232;
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  border: solid 2px #463232;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
 
 /*# sourceMappingURL=buttons.css.map */

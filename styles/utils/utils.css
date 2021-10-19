@@ -1,5 +1,3 @@
-@import url(../base/reset.css);
-@import url(../base/typography.css);
 @import url(../base/typography.css);
 @import url(../base/reset.css);
 .section-side {
@@ -31,4 +29,4 @@
   font-weight: 500;
 }
 
-/*# sourceMappingURL=input.css.map */
+/*# sourceMappingURL=utils.css.map */

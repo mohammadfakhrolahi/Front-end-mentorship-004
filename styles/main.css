@@ -1,9 +1,127 @@
 @import url(./base/reset.css);
 @import url(./base/typography.css);
-@import url(../base/reset.css);
 @import url(../base/typography.css);
 @import url(../base/reset.css);
+@import url(../base/reset.css);
 @import url(../base/typography.css);
+@import url(../base/typography.css);
+@import url(../base/reset.css);
+@import url(../base/reset.css);
+@import url(../base/typography.css);
+@import url(../base/typography.css);
+@import url(../base/reset.css);
+.section-side {
+  width: 50%;
+}
+
+.left-section {
+  padding-right: 8rem;
+}
+
+.right-section {
+  padding-right: 8rem;
+}
+
+.main-image {
+  width: 100%;
+  height: 80vh;
+  margin-top: 8rem;
+}
+
+.section-header {
+  color: #463232;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.main-paragraph {
+  color: #7d7d7d;
+  font-weight: 500;
+}
+
+.section-side {
+  width: 50%;
+}
+
+.left-section {
+  padding-right: 8rem;
+}
+
+.right-section {
+  padding-right: 8rem;
+}
+
+.main-image {
+  width: 100%;
+  height: 80vh;
+  margin-top: 8rem;
+}
+
+.section-header {
+  color: #463232;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.main-paragraph {
+  color: #7d7d7d;
+  font-weight: 500;
+}
+
+button {
+  letter-spacing: 0.2rem;
+}
+
+.button {
+  background: #463232;
+  color: #fff;
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
+}
+
+.button-white {
+  background: #fff;
+  color: #463232;
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  border: solid 2px #463232;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+.section-side {
+  width: 50%;
+}
+
+.left-section {
+  padding-right: 8rem;
+}
+
+.right-section {
+  padding-right: 8rem;
+}
+
+.main-image {
+  width: 100%;
+  height: 80vh;
+  margin-top: 8rem;
+}
+
+.section-header {
+  color: #463232;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.main-paragraph {
+  color: #7d7d7d;
+  font-weight: 500;
+}
+
 .overview {
   width: 100%;
   height: 120vh;
@@ -22,7 +140,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 13rem;
-  padding-left: 8rem;
+  padding-left: 14rem;
 }
 .overview #overview-content .content-right .explanation {
   width: 50%;
@@ -30,7 +148,6 @@
 .overview #overview-content .content-right .explanation .explanation-paragraph {
   margin-bottom: 2rem;
   color: #463232;
-  font-weight: 500;
 }
 .overview #overview-content .content-right .search-box {
   width: 40%;
@@ -56,12 +173,7 @@
   color: #fff;
 }
 .overview #overview-content .content-right .button {
-  background: #463232;
-  color: #fff;
-  padding: 1rem 4rem;
-  font-size: 1.5rem;
   margin-top: 8rem;
-  letter-spacing: 0.2rem;
 }
 
 #lenders-container {
@@ -119,6 +231,25 @@
   width: 128px;
   height: 67px;
   background: url(../logos/walmart.png) center/cover no-repeat;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5rem 14rem;
+}
+.main-section .left-section .section-header {
+  margin-top: 4rem;
+}
+.main-section .left-section .main-image {
+  background: url(../images/1111.jpg) center/cover no-repeat;
+}
+.main-section .right-section .main-image {
+  background: url(../images/77.jpg) center/cover no-repeat;
+}
+.main-section .right-section .main-paragraph {
+  margin-top: 4rem;
 }
 
 /*# sourceMappingURL=main.css.map */
