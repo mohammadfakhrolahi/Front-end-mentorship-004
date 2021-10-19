@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #efd2c2;
   padding: 3rem 5rem;
-  position: absolute;
   z-index: 1;
 }
 #main-header #logo {

@@ -1,0 +1,33 @@
+// Base
+@import url(../base/reset.css);
+@import url(../base/typography.css);
+// Utils
+@import '../utils/colors.scss';
+@import '../utils/variables.scss';
+
+// Search Box
+@mixin searchbox {
+  width: 40%;
+  @include display-jBetween-iCenter();
+  padding: 1rem;
+  background: $white;
+
+  // Input
+  input {
+    width: 80%;
+    padding: 0.5rem 0.8rem;
+    border: 0;
+    outline: none;
+  }
+
+  // Search button
+  .search-button {
+    background: $main-color;
+    padding: 0.8rem;
+
+    i {
+      font-size: 1.6rem;
+      color: $white;
+    }
+  }
+}

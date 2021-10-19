@@ -7,8 +7,9 @@
 #main-header {
   width: 100%;
   @include display-jBetween-iCenter();
+  background: $header-bg;
   padding: 3rem 5rem;
-  position:absolute;
+  // position:absolute;
   z-index: 1;
 
   #logo {
