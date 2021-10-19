@@ -68,10 +68,6 @@
   font-weight: 500;
 }
 
-button {
-  letter-spacing: 0.2rem;
-}
-
 .button {
   background: #463232;
   color: #fff;
@@ -79,6 +75,7 @@ button {
   margin-top: 4rem;
   font-size: 1.5rem;
   letter-spacing: 0.2rem;
+  cursor: pointer;
   box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
 }
 
@@ -91,6 +88,7 @@ button {
   font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.2rem;
+  cursor: pointer;
 }
 
 .section-side {
