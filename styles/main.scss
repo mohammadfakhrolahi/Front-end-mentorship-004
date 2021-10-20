@@ -64,7 +64,7 @@
         width: 50%;
         margin: 0 0 2rem 4rem;
       }
-    } 
+    }
   }
 }
 
@@ -165,13 +165,13 @@
   text-align: center;
 }
 
-.statistics-container {
+.product-statistics-container {
   width: 80%;
   @include display-jBetween-iCenter();
   color: $sea-green;
   margin-top: 4rem;
 
-  .statistics {
+  .product-statistics {
     width: 7rem;
     margin-bottom: 1rem;
     border-bottom: 3.5px solid $main-color;
@@ -183,6 +183,6 @@
 }
 
 .button-container {
-    width: 80%;
-    @include display-jBetween-iCenter();
-  }
+  width: 80%;
+  @include display-jBetween-iCenter();
+}

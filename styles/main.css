@@ -329,7 +329,7 @@
   text-align: center;
 }
 
-.statistics-container {
+.product-statistics-container {
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -337,7 +337,7 @@
   color: #205865;
   margin-top: 4rem;
 }
-.statistics-container .statistics {
+.product-statistics-container .product-statistics {
   width: 7rem;
   margin-bottom: 1rem;
   border-bottom: 3.5px solid #463232;
