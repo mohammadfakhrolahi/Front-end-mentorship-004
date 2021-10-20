@@ -5,37 +5,63 @@
 @import '../utils/colors.scss';
 @import '../utils/variables.scss';
 
+// ----- Sections -----
+// Main Section
+.main-section {
+  @include display-j-between-a-center();
+  padding: 5rem 14rem;
+}
+
 // Section Side
 .section-side {
-    width: 50%;
+  width: 50%;
 }
 
 .left-section {
-    padding-right: 8rem;
+  padding-right: 7rem;
 }
 
 .right-section {
-    padding-right: 8rem;
+  padding-left: 7rem;
 }
 
-// Image In Section
+// ----- Image In Section -----
 .main-image {
-    width: 100%;
-    height: 80vh;
-    margin-top: 8rem;
+  width: 100%;
+  height: 80vh;
+  margin-top: 8rem;
 }
 
+// ----- H Tags -----
 // H2
 .section-header {
-    color: $main-color;
-    font: {
-        size: 7rem;
-        weight: 500;
-    }
+  color: $main-color;
+  font: {
+    size: 7rem;
+    weight: 500;
+  }
 }
 
+// H3
+.section-title {
+  color: $main-color;
+  font: {
+    size: 5rem;
+    weight: 500;
+  }
+}
+
+// ----- Paragraph -----
 // Main Paragraph
 .main-paragraph {
-    color: $paragraph-color;
-    font-weight: 500;
+  color: $paragraph-color;
+  font-weight: 500;
+}
+
+// ----- hr Tags -----
+.horizontal-hr {
+    width: 7rem;
+    height: 2px;
+    background: $main-color;
+    border: 0;
 }

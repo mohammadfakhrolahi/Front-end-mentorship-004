@@ -10,16 +10,24 @@
 @import url(../base/typography.css);
 @import url(../base/typography.css);
 @import url(../base/reset.css);
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5rem 14rem;
+}
+
 .section-side {
   width: 50%;
 }
 
 .left-section {
-  padding-right: 8rem;
+  padding-right: 7rem;
 }
 
 .right-section {
-  padding-right: 8rem;
+  padding-left: 7rem;
 }
 
 .main-image {
@@ -34,9 +42,30 @@
   font-weight: 500;
 }
 
+.section-title {
+  color: #463232;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
 .main-paragraph {
   color: #7d7d7d;
   font-weight: 500;
+}
+
+.horizontal-hr {
+  width: 7rem;
+  height: 2px;
+  background: #463232;
+  border: 0;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5rem 14rem;
 }
 
 .section-side {
@@ -44,11 +73,11 @@
 }
 
 .left-section {
-  padding-right: 8rem;
+  padding-right: 7rem;
 }
 
 .right-section {
-  padding-right: 8rem;
+  padding-left: 7rem;
 }
 
 .main-image {
@@ -63,23 +92,42 @@
   font-weight: 500;
 }
 
+.section-title {
+  color: #463232;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
 .main-paragraph {
   color: #7d7d7d;
   font-weight: 500;
+}
+
+.horizontal-hr {
+  width: 7rem;
+  height: 2px;
+  background: #463232;
+  border: 0;
 }
 
 .button {
+  width: 11rem;
+  height: 2.8rem;
   background: #463232;
   color: #fff;
   padding: 1rem 4rem;
   margin-top: 4rem;
+  border: solid 2px #463232;
   font-size: 1.5rem;
+  text-align: center;
   letter-spacing: 0.2rem;
   cursor: pointer;
   box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
 }
 
 .button-white {
+  width: 11rem;
+  height: 2.8rem;
   background: #fff;
   color: #463232;
   padding: 1rem 4rem;
@@ -87,8 +135,17 @@
   border: solid 2px #463232;
   font-size: 1.5rem;
   font-weight: 500;
+  text-align: center;
   letter-spacing: 0.2rem;
   cursor: pointer;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5rem 14rem;
 }
 
 .section-side {
@@ -96,11 +153,11 @@
 }
 
 .left-section {
-  padding-right: 8rem;
+  padding-right: 7rem;
 }
 
 .right-section {
-  padding-right: 8rem;
+  padding-left: 7rem;
 }
 
 .main-image {
@@ -115,9 +172,22 @@
   font-weight: 500;
 }
 
+.section-title {
+  color: #463232;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
 .main-paragraph {
   color: #7d7d7d;
   font-weight: 500;
+}
+
+.horizontal-hr {
+  width: 7rem;
+  height: 2px;
+  background: #463232;
+  border: 0;
 }
 
 .overview {
@@ -231,11 +301,8 @@
   background: url(../logos/walmart.png) center/cover no-repeat;
 }
 
-.main-section {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  padding: 5rem 14rem;
+.main-section #left-section-unique {
+  margin-top: 4rem;
 }
 .main-section .left-section .section-header {
   margin-top: 4rem;
@@ -246,8 +313,36 @@
 .main-section .right-section .main-image {
   background: url(../images/77.jpg) center/cover no-repeat;
 }
-.main-section .right-section .main-paragraph {
+.main-section .right-section #unique-paragraph {
   margin-top: 4rem;
+}
+
+.header-container {
+  width: 100%;
+  text-align: center;
+}
+
+.statistics-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #205865;
+  margin-top: 4rem;
+}
+.statistics-container .statistics {
+  width: 7rem;
+  margin-bottom: 1rem;
+  border-bottom: 3.5px solid #463232;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.button-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

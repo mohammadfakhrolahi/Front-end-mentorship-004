@@ -2,16 +2,24 @@
 @import url(../base/typography.css);
 @import url(../base/typography.css);
 @import url(../base/reset.css);
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 5rem 14rem;
+}
+
 .section-side {
   width: 50%;
 }
 
 .left-section {
-  padding-right: 8rem;
+  padding-right: 7rem;
 }
 
 .right-section {
-  padding-right: 8rem;
+  padding-left: 7rem;
 }
 
 .main-image {
@@ -26,9 +34,22 @@
   font-weight: 500;
 }
 
+.section-title {
+  color: #463232;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
 .main-paragraph {
   color: #7d7d7d;
   font-weight: 500;
+}
+
+.horizontal-hr {
+  width: 7rem;
+  height: 2px;
+  background: #463232;
+  border: 0;
 }
 
 #main-header {

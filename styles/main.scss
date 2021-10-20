@@ -75,7 +75,7 @@
     text-align: center;
   }
 
-  // 
+  //
   .lenders-logo {
     @include display-j-between-i-center();
 
@@ -124,30 +124,55 @@
 
 // About Us Section
 .main-section {
-  @include display-j-between-a-center();
-  padding: 5rem 14rem;
-
   // Left side
+  #left-section-unique {
+    margin-top: 4rem;
+  }
   .left-section {
-
     .section-header {
-        margin-top: 4rem;
+      margin-top: 4rem;
     }
-    
+
     .main-image {
       background: url(../images/1111.jpg) center/cover no-repeat;
     }
   }
   // Right side
   .right-section {
-
     .main-image {
       background: url(../images/77.jpg) center/cover no-repeat;
-      
     }
 
-    .main-paragraph {
+    #unique-paragraph {
       margin-top: 4rem;
     }
   }
-}  
+}
+
+// Products Section
+.header-container {
+  width: 100%;
+  text-align: center;
+}
+
+.statistics-container {
+  width: 80%;
+  @include display-jBetween-iCenter();
+  color: $sea-green;
+  margin-top: 4rem;
+
+  .statistics {
+    width: 7rem;
+    margin-bottom: 1rem;
+    border-bottom: 3.5px solid $main-color;
+    font: {
+      size: 3rem;
+      weight: 600;
+    }
+  }
+}
+
+.button-container {
+    width: 80%;
+    @include display-jBetween-iCenter();
+  }
