@@ -316,10 +316,10 @@
 .main-section .left-section .section-header {
   margin-top: 4rem;
 }
-.main-section .left-section .main-image {
+.main-section .left-section #first-aboutus-image {
   background: url(../images/1111.jpg) center/cover no-repeat;
 }
-.main-section .right-section .main-image {
+.main-section .right-section #second-aboutus-image {
   background: url(../images/77.jpg) center/cover no-repeat;
 }
 .main-section .right-section #unique-paragraph {
@@ -329,6 +329,14 @@
 .header-container {
   width: 100%;
   text-align: center;
+}
+
+#first-product-image {
+  background: url(../images/12.jpg) center/cover no-repeat;
+}
+
+#second-product-image {
+  background: url(../images/81.jpg) center/cover no-repeat;
 }
 
 .product-statistics-container {
@@ -354,11 +362,14 @@
   align-items: center;
 }
 
+#second-lenders-container {
+  margin-top: 4rem;
+}
+
 .lenders-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 4rem;
   text-align: center;
 }
 .lenders-container .product-statistics-box {

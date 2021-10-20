@@ -145,13 +145,13 @@
       margin-top: 4rem;
     }
 
-    .main-image {
+    #first-aboutus-image {
       background: url(../images/1111.jpg) center/cover no-repeat;
     }
   }
   // Right side
   .right-section {
-    .main-image {
+    #second-aboutus-image {
       background: url(../images/77.jpg) center/cover no-repeat;
     }
 
@@ -165,6 +165,14 @@
 .header-container {
   width: 100%;
   text-align: center;
+}
+
+#first-product-image {
+  background: url(../images/12.jpg) center/cover no-repeat;
+}
+
+#second-product-image {
+  background: url(../images/81.jpg) center/cover no-repeat;
 }
 
 .product-statistics-container {
@@ -190,9 +198,12 @@
 }
 
 // ----- Product Statistics Section -----
+#second-lenders-container {
+  margin-top: 4rem;
+}
+
 .lenders-container {
   @include display-jBetween-iCenter();
-  margin-top: 4rem;
   text-align: center;
 
   .product-statistics-box {
