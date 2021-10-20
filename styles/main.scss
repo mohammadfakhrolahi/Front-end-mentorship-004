@@ -9,7 +9,7 @@
 @import './components/buttons.scss';
 @import './components/input.scss';
 
-// Overview background image
+// ----- Overview background image -----
 .overview {
   width: 100%;
   height: 120vh;
@@ -68,13 +68,14 @@
   }
 }
 
-// Lenders Containe: SOME OF OUR LENDERS
-#lenders-container {
-  @include display-column-ac-center();
+// ----- Lenders Containe: SOME OF OUR LENDERS -----
+.lenders-container {
+  @include display-column-wrap-a-center();
   background: $light-orange;
-  padding: 3.5rem;
+  padding: 3.5rem 14rem;
 
   .lenders-header {
+    width: 100%;
     margin-bottom: 3rem;
     color: $main-color;
     font: {
@@ -88,6 +89,7 @@
   //
   .lenders-logo {
     @include display-j-between-i-center();
+    width: 100%;
 
     .lender-list {
       width: 80%;
@@ -132,7 +134,7 @@
   }
 }
 
-// About Us Section
+// ----- About Us Section -----
 .main-section {
   // Left side
   #left-section-unique {
@@ -159,7 +161,7 @@
   }
 }
 
-// Products Section
+// ----- Products Section -----
 .header-container {
   width: 100%;
   text-align: center;
@@ -185,4 +187,30 @@
 .button-container {
   width: 80%;
   @include display-jBetween-iCenter();
+}
+
+// ----- Product Statistics Section -----
+.lenders-container {
+  @include display-jBetween-iCenter();
+  margin-top: 4rem;
+  text-align: center;
+
+  .product-statistics-box {
+    width: 30%;
+
+    .product-statistics {
+      color: $main-color;
+      font: {
+        size: 3.5rem;
+        weight: 600;
+      }
+    }
+
+    .main-paragraph {
+      font: {
+        size: 1.6rem;
+        weight: 400;
+      }
+    }
+  }
 }

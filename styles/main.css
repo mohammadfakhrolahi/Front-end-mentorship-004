@@ -53,9 +53,9 @@
   font-weight: 500;
 }
 
-.horizontal-hr {
-  width: 7rem;
-  height: 2px;
+.vertical-hr {
+  width: 0.16rem;
+  height: 14vh;
   background: #463232;
   border: 0;
 }
@@ -103,9 +103,9 @@
   font-weight: 500;
 }
 
-.horizontal-hr {
-  width: 7rem;
-  height: 2px;
+.vertical-hr {
+  width: 0.16rem;
+  height: 14vh;
   background: #463232;
   border: 0;
 }
@@ -183,9 +183,9 @@
   font-weight: 500;
 }
 
-.horizontal-hr {
-  width: 7rem;
-  height: 2px;
+.vertical-hr {
+  width: 0.16rem;
+  height: 14vh;
   background: #463232;
   border: 0;
 }
@@ -251,14 +251,15 @@
   margin: 0 0 2rem 4rem;
 }
 
-#lenders-container {
+.lenders-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-content: center;
   background: #fef6f0;
-  padding: 3.5rem;
+  padding: 3.5rem 14rem;
 }
-#lenders-container .lenders-header {
+.lenders-container .lenders-header {
+  width: 100%;
   margin-bottom: 3rem;
   color: #463232;
   font-size: 2.2rem;
@@ -266,43 +267,44 @@
   letter-spacing: 0.2rem;
   text-align: center;
 }
-#lenders-container .lenders-logo {
+.lenders-container .lenders-logo {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
 }
-#lenders-container .lenders-logo .lender-list {
+.lenders-container .lenders-logo .lender-list {
   width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-#lenders-container .lenders-logo .lender-list #chase {
+.lenders-container .lenders-logo .lender-list #chase {
   width: 140px;
   height: 25px;
   background: url(../logos/chase-s.png) center/cover no-repeat;
 }
-#lenders-container .lenders-logo .lender-list #asana {
+.lenders-container .lenders-logo .lender-list #asana {
   width: 130px;
   height: 25px;
   background: url(../logos/asana-s.png) center/cover no-repeat;
 }
-#lenders-container .lenders-logo .lender-list #google {
+.lenders-container .lenders-logo .lender-list #google {
   width: 128px;
   height: 42px;
   background: url(../logos/google-s.png) center/cover no-repeat;
 }
-#lenders-container .lenders-logo .lender-list #buzzfeed {
+.lenders-container .lenders-logo .lender-list #buzzfeed {
   width: 130px;
   height: 23px;
   background: url(../logos/buzzfeed-s.png) center/cover no-repeat;
 }
-#lenders-container .lenders-logo .lender-list #toggle {
+.lenders-container .lenders-logo .lender-list #toggle {
   width: 110px;
   height: 38px;
   background: url(../logos/toggle-s.png) center/cover no-repeat;
 }
-#lenders-container .lenders-logo .lender-list #walmart {
+.lenders-container .lenders-logo .lender-list #walmart {
   width: 128px;
   height: 67px;
   background: url(../logos/walmart.png) center/cover no-repeat;
@@ -350,6 +352,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.lenders-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  text-align: center;
+}
+.lenders-container .product-statistics-box {
+  width: 30%;
+}
+.lenders-container .product-statistics-box .product-statistics {
+  color: #463232;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.lenders-container .product-statistics-box .main-paragraph {
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=main.css.map */

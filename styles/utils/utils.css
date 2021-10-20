@@ -43,9 +43,9 @@
   font-weight: 500;
 }
 
-.horizontal-hr {
-  width: 7rem;
-  height: 2px;
+.vertical-hr {
+  width: 0.16rem;
+  height: 14vh;
   background: #463232;
   border: 0;
 }
