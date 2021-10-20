@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-@mixin display-column-wrap-a-center {
+@mixin display-wrap-a-center {
   display: flex;
   flex-wrap: wrap;
   align-content: center;

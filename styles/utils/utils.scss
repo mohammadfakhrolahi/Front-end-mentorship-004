@@ -25,6 +25,10 @@
   padding-left: 7rem;
 }
 
+.align-center {
+  @include display-column-j-center-a-center();
+}
+
 // ----- Image In Section -----
 .main-image {
   width: 100%;

@@ -70,7 +70,7 @@
 
 // ----- Lenders Containe: SOME OF OUR LENDERS -----
 .lenders-container {
-  @include display-column-wrap-a-center();
+  @include display-wrap-a-center();
   background: $light-orange;
   padding: 3.5rem 14rem;
 
@@ -224,4 +224,14 @@
       }
     }
   }
+}
+
+// ----- Next Section -----
+#image {
+  background: url(../images/66.jpg) center/cover no-repeat;
+  box-shadow: -30px 30px $Desert-sand-light;
+}
+
+#paragraph-margin {
+  margin: 2rem 0 4rem 0;
 }

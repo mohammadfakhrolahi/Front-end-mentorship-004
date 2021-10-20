@@ -30,6 +30,13 @@
   padding-left: 7rem;
 }
 
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
 .main-image {
   width: 100%;
   height: 80vh;
@@ -78,6 +85,13 @@
 
 .right-section {
   padding-left: 7rem;
+}
+
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .main-image {
@@ -158,6 +172,13 @@
 
 .right-section {
   padding-left: 7rem;
+}
+
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .main-image {
@@ -383,6 +404,15 @@
 .lenders-container .product-statistics-box .main-paragraph {
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+#image {
+  background: url(../images/66.jpg) center/cover no-repeat;
+  box-shadow: -30px 30px #edd9cb;
+}
+
+#paragraph-margin {
+  margin: 2rem 0 4rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */
