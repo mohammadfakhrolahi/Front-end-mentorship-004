@@ -210,14 +210,14 @@
   margin-top: 13rem;
   padding-left: 14rem;
 }
-.overview #overview-content .content-right .explanation {
-  width: 50%;
+.overview #overview-content .content-left .explanation {
+  width: 49%;
 }
-.overview #overview-content .content-right .explanation .explanation-paragraph {
+.overview #overview-content .content-left .explanation .explanation-paragraph {
   margin-bottom: 2rem;
   color: #463232;
 }
-.overview #overview-content .content-right .search-box {
+.overview #overview-content .content-left .search-box {
   width: 40%;
   display: flex;
   justify-content: space-between;
@@ -226,22 +226,29 @@
   background: #fff;
   margin-top: 5rem;
 }
-.overview #overview-content .content-right .search-box input {
+.overview #overview-content .content-left .search-box input {
   width: 80%;
   padding: 0.5rem 0.8rem;
   border: 0;
   outline: none;
 }
-.overview #overview-content .content-right .search-box .search-button {
+.overview #overview-content .content-left .search-box .search-button {
   background: #463232;
   padding: 0.8rem;
 }
-.overview #overview-content .content-right .search-box .search-button i {
+.overview #overview-content .content-left .search-box .search-button i {
   font-size: 1.6rem;
   color: #fff;
 }
-.overview #overview-content .content-right .button {
+.overview #overview-content .content-left .button {
   margin-top: 8rem;
+}
+.overview #overview-content #content-right {
+  width: 34%;
+}
+.overview #overview-content #content-right .explanation-paragraph-right {
+  width: 50%;
+  margin: 0 0 2rem 4rem;
 }
 
 #lenders-container {

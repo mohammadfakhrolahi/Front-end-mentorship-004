@@ -33,10 +33,10 @@
     margin-top: 13rem;
     padding-left: 14rem;
 
-    // Right content
-    .content-right {
+    // Left content
+    .content-left {
       .explanation {
-        width: 50%;
+        width: 49%;
 
         .explanation-paragraph {
           margin-bottom: 2rem;
@@ -55,6 +55,16 @@
         margin-top: 8rem;
       }
     }
+
+    // Right content
+    #content-right {
+      width: 34%;
+
+      .explanation-paragraph-right {
+        width: 50%;
+        margin: 0 0 2rem 4rem;
+      }
+    } 
   }
 }
 
