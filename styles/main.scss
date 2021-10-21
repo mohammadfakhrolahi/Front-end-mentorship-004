@@ -40,6 +40,7 @@
 
         .explanation-paragraph {
           margin-bottom: 2rem;
+          font-weight: 500;
           color: $main-color;
         }
       }
@@ -234,4 +235,32 @@
 
 #paragraph-margin {
   margin: 2rem 0 4rem 0;
+}
+
+// ----- Customers Section -----
+.customers-section {
+  @include display-column-j-center-ai-center();
+  background: $light-orange;
+  padding: 5rem 14rem;
+
+  .customers-header {
+    width: 47%;
+    text-align: center;
+  }
+
+  .customers-container {
+    @include display-j-between-a-center();
+    margin-top: 5rem;
+
+    .customers-box {
+      width: 30%;
+      background: $white;
+      padding: 5rem 3rem;
+    }
+  }
+}
+.profile-image {
+  width: 100%;
+  height: 100%;
+  background: url(../images/p22.jpg) center/cover no-repeat;
 }

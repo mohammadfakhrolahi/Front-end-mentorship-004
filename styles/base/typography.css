@@ -26,7 +26,7 @@ h5 {
   font-size: 1rem;
 }
 
-p, li {
+p, span, li {
   font-size: 1.4rem;
   letter-spacing: 0.02rem;
 }
