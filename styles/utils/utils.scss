@@ -96,23 +96,26 @@ span {
     }
 
     .profile-box {
+      width: 100%;
       @include display-align-center();
       margin-top: 4rem;
 
       // Profile Image
       .profile-image-container {
         width: 20%;
+        @include display-ja-center();
 
         .profile-image {
-          width: 50px;
-          height: 50px;
+          width: 4.5rem;
+          height: 4.5rem;
           border-radius: 50%;
+          
         }
       }
 
       // Profile Name Box: Name and Position
       .profile-name-box {
-        @include display-column-j-center-a-center();
+        @include display-column-j-start-a-center();
         margin-left: 1rem;
 
         .profile-name {
@@ -122,6 +125,7 @@ span {
         }
 
         .user-position {
+          color: $paragraph-color;
           font-weight: 500;
         }
       }
