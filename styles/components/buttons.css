@@ -58,33 +58,55 @@
   border: 0;
 }
 
-p, span {
+p,
+span {
   line-height: 2;
 }
 
-.fa-star {
+.customers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 5rem;
+}
+.customers-container .customers-box {
+  width: 30%;
+  background: #fff;
+  padding: 5rem 3rem;
+}
+.customers-container .customers-box .rate .fa-star {
   color: #fc8c76;
   margin-bottom: 4rem;
   font-size: 1.2rem;
 }
-
-.profile-name-box {
+.customers-container .customers-box .profile-box {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+}
+.customers-container .customers-box .profile-box .profile-image-container {
+  width: 20%;
+}
+.customers-container .customers-box .profile-box .profile-image-container .profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.customers-container .customers-box .profile-box .profile-name-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  margin-left: 1rem;
 }
-.profile-name-box .profile-name {
+.customers-container .customers-box .profile-box .profile-name-box .profile-name {
   color: #463232;
   font-weight: 600;
   line-height: 1;
 }
-.profile-name-box .user-position {
+.customers-container .customers-box .profile-box .profile-name-box .user-position {
   font-weight: 500;
-}
-
-.profile-image-container {
-  width: 10%;
 }
 
 .button {
