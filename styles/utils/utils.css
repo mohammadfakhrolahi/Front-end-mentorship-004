@@ -163,4 +163,15 @@ span {
   font-size: 2rem;
 }
 
+#circle {
+  width: 6rem;
+  height: 6rem;
+  background: rgba(255, 166, 0, 0.438);
+  backdrop-filter: saturate(180%) blur(5px);
+  border-radius: 50%;
+  position: relative;
+  top: 53rem;
+  left: 89rem;
+}
+
 /*# sourceMappingURL=utils.css.map */
