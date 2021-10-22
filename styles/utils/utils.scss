@@ -93,7 +93,7 @@ span {
 
   #arrow-badge {
     position: absolute;
-    top: 495rem;
+    top: 485rem;
     right: 14rem;
     z-index: 100;
 
@@ -171,5 +171,22 @@ span {
   transition: 0.2s;
   .main-paragraph {
     color: $main-color;
+  }
+}
+
+// Social Absolute
+.social-absolute {
+  position: fixed;
+  top:60rem;
+  right: 5rem;
+
+  li {
+    @include display-ja-center();
+    margin-bottom: 2rem;
+    i {
+      color: $main-color;
+      font-size: 2rem;
+    }
+    z-index: 2;
   }
 }

@@ -79,7 +79,7 @@ span {
 }
 .customers-container #arrow-badge {
   position: absolute;
-  top: 495rem;
+  top: 485rem;
   right: 14rem;
   z-index: 100;
 }
@@ -146,6 +146,23 @@ span {
 }
 .customers-box:hover .main-paragraph {
   color: #463232;
+}
+
+.social-absolute {
+  position: fixed;
+  top: 60rem;
+  right: 5rem;
+}
+.social-absolute li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  z-index: 2;
+}
+.social-absolute li i {
+  color: #463232;
+  font-size: 2rem;
 }
 
 .footer {

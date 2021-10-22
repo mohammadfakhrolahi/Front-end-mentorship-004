@@ -79,7 +79,7 @@ span {
 }
 .customers-container #arrow-badge {
   position: absolute;
-  top: 495rem;
+  top: 485rem;
   right: 14rem;
   z-index: 100;
 }
@@ -148,13 +148,30 @@ span {
   color: #463232;
 }
 
+.social-absolute {
+  position: fixed;
+  top: 60rem;
+  right: 5rem;
+}
+.social-absolute li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  z-index: 2;
+}
+.social-absolute li i {
+  color: #463232;
+  font-size: 2rem;
+}
+
 #main-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #efd2c2;
   padding: 3rem 5rem;
+  position: absolute;
   z-index: 1;
 }
 
@@ -188,6 +205,18 @@ span {
 #icons-nav-container #icons-nav li a {
   font-size: 1.6rem;
   color: #463232;
+}
+
+.cart-badge {
+  background: #463232;
+  color: #efd2c2;
+  padding: 2px 3.8px;
+  border-radius: 30px;
+  font-size: 1rem;
+  position: absolute;
+  top: 2.5rem;
+  right: 8rem;
+  line-height: 1;
 }
 
 /*# sourceMappingURL=header.css.map */
