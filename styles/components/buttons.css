@@ -75,7 +75,26 @@ span {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
-  margin-top: 5rem;
+  padding-top: 5rem;
+}
+.customers-container #arrow-badge {
+  position: absolute;
+  top: 495rem;
+  right: 14rem;
+  z-index: 100;
+}
+.customers-container #arrow-badge .arrow-btn i {
+  margin-left: 1.5rem;
+  font-size: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.customers-container #arrow-badge .arrow-btn i:hover {
+  background: #463232;
+  color: #fff;
+  border: 1px solid #463232;
+  border-radius: 50%;
+  transition: 0.2s;
 }
 .customers-container .customers-box {
   width: 30%;
@@ -144,7 +163,7 @@ span {
   box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
 }
 
-button:hover {
+.button:hover {
   background: #fff;
   color: #463232;
   box-shadow: none;
