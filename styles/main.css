@@ -10,6 +10,13 @@
 @import url(../base/typography.css);
 @import url(../base/typography.css);
 @import url(../base/reset.css);
+.logo {
+  color: #463232;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: Raleway;
+}
+
 .main-section {
   display: flex;
   flex-wrap: wrap;
@@ -122,6 +129,21 @@ span {
   font-weight: 500;
 }
 
+.customers-box:hover {
+  box-shadow: 0 30px 80px 0.07px rgba(92, 92, 92, 0.205);
+  transition: 0.2s;
+}
+.customers-box:hover .main-paragraph {
+  color: #463232;
+}
+
+.logo {
+  color: #463232;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: Raleway;
+}
+
 .main-section {
   display: flex;
   flex-wrap: wrap;
@@ -232,6 +254,14 @@ span {
 .customers-container .customers-box .profile-box .profile-name-box .user-position {
   color: #7d7d7d;
   font-weight: 500;
+}
+
+.customers-box:hover {
+  box-shadow: 0 30px 80px 0.07px rgba(92, 92, 92, 0.205);
+  transition: 0.2s;
+}
+.customers-box:hover .main-paragraph {
+  color: #463232;
 }
 
 .button {
@@ -249,6 +279,13 @@ span {
   box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
 }
 
+button:hover {
+  background: #fff;
+  color: #463232;
+  box-shadow: none;
+  transition: 0.2s;
+}
+
 .button-white {
   width: 11rem;
   height: 2.8rem;
@@ -262,6 +299,20 @@ span {
   text-align: center;
   letter-spacing: 0.2rem;
   cursor: pointer;
+}
+
+.button-white:hover {
+  background: #463232;
+  color: #fff;
+  box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
+  transition: 0.2s;
+}
+
+.logo {
+  color: #463232;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: Raleway;
 }
 
 .main-section {
@@ -374,6 +425,14 @@ span {
 .customers-container .customers-box .profile-box .profile-name-box .user-position {
   color: #7d7d7d;
   font-weight: 500;
+}
+
+.customers-box:hover {
+  box-shadow: 0 30px 80px 0.07px rgba(92, 92, 92, 0.205);
+  transition: 0.2s;
+}
+.customers-box:hover .main-paragraph {
+  color: #463232;
 }
 
 .overview {
@@ -426,6 +485,14 @@ span {
 .overview #overview-content .content-left .search-box .search-button i {
   font-size: 1.6rem;
   color: #fff;
+}
+.overview #overview-content .content-left .search-box .search-button:hover {
+  background: #fff;
+  border: 1px solid #463232;
+}
+.overview #overview-content .content-left .search-box .search-button:hover i {
+  color: #463232;
+  transition: 0.2s;
 }
 .overview #overview-content .content-left .button {
   margin-top: 8rem;

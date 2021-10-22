@@ -31,4 +31,13 @@
       color: $white;
     }
   }
+
+  .search-button:hover {
+    background: $white;
+    border: 1px solid $main-color;
+    i {
+      color: $main-color;
+      transition: 0.2s;
+    }
+  }
 }

@@ -12,15 +12,6 @@
   padding: 3rem 5rem;
   // position:absolute;
   z-index: 1;
-
-  #logo {
-    color: $main-color;
-    font: {
-      size: 2.5rem;
-      weight: 700;
-      family: Raleway;
-    }
-  }
 }
 
 #main-nav-container {
@@ -36,6 +27,11 @@
           size: 1.6rem;
           weight: 500;
         }
+      }
+
+      a:hover {
+        border-bottom: 3px solid $main-color;
+        transition: 0.2s;
       }
     }
   }

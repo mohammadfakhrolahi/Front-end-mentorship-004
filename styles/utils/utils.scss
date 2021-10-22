@@ -5,6 +5,16 @@
 @import '../utils/colors.scss';
 @import '../utils/variables.scss';
 
+// LOGO
+.logo {
+  color: $main-color;
+  font: {
+    size: 2.5rem;
+    weight: 700;
+    family: Raleway;
+  }
+}
+
 // ----- Sections -----
 // Main Section
 .main-section {
@@ -109,7 +119,6 @@ span {
           width: 4.5rem;
           height: 4.5rem;
           border-radius: 50%;
-          
         }
       }
 
@@ -130,5 +139,13 @@ span {
         }
       }
     }
+  }
+}
+
+.customers-box:hover {
+  box-shadow: 0 30px 80px 0.07px rgba(92, 92, 92, 0.205);
+  transition: 0.2s;
+  .main-paragraph {
+    color: $main-color;
   }
 }

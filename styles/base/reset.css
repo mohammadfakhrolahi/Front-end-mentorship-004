@@ -33,3 +33,7 @@ img {
 button {
   all: unset;
 }
+
+hr {
+  border: 0;
+}

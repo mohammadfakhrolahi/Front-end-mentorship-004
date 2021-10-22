@@ -20,6 +20,14 @@
   letter-spacing: 0.2rem;
   cursor: pointer;
   box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
+
+}
+
+button:hover {
+  background: $white;
+  color: $main-color;
+  box-shadow: none;
+  transition: 0.2s;
 }
 
 // Big White Button
@@ -38,4 +46,11 @@
   text-align: center;
   letter-spacing: 0.2rem;
   cursor: pointer;
+}
+
+.button-white:hover {
+  background: $main-color;
+  color: $white;
+  box-shadow: 0 30px 70px 10px rgba(92, 92, 92, 0.342);
+  transition: 0.2s;
 }
