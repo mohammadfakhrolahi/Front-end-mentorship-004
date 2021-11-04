@@ -99,6 +99,7 @@ span {
 
     .arrow-btn {
       i {
+        color: $main-color;
         margin-left: 1.5rem;
         font-size: 4rem;
         border-radius: 50%;
@@ -107,8 +108,7 @@ span {
 
       i:hover {
         background: $main-color;
-        color: $white;
-        border: 1px solid $main-color;
+        color: $light-orange;
         border-radius: 50%;
         transition: 0.2s;
       }
@@ -183,11 +183,17 @@ span {
   li {
     @include display-ja-center();
     margin-bottom: 2rem;
+    z-index: 2;
+
     i {
       color: $main-color;
       font-size: 2rem;
     }
-    z-index: 2;
+
+    i:hover {
+      color: $main-color-light;
+      transition: 0.2s;
+    }
   }
 }
 
@@ -200,4 +206,22 @@ span {
   position: relative;
   top: 53rem;
   left: 89rem;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: $light-orange;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $main-color;
+}
+
+:root {
+  scrollbar-color: $main-color $light-orange !important;
+  scrollbar-width: 1.5rem !important;
 }

@@ -44,6 +44,11 @@
         font-size: 2rem;
         text-align: center;
     }
+
+    i:hover {
+        background: $main-color-light;
+        transition: 0.2s;
+      }
   }
 }
 

@@ -84,6 +84,7 @@ span {
   z-index: 100;
 }
 .customers-container #arrow-badge .arrow-btn i {
+  color: #463232;
   margin-left: 1.5rem;
   font-size: 4rem;
   border-radius: 50%;
@@ -91,8 +92,7 @@ span {
 }
 .customers-container #arrow-badge .arrow-btn i:hover {
   background: #463232;
-  color: #fff;
-  border: 1px solid #463232;
+  color: #fef6f0;
   border-radius: 50%;
   transition: 0.2s;
 }
@@ -164,6 +164,10 @@ span {
   color: #463232;
   font-size: 2rem;
 }
+.social-absolute li i:hover {
+  color: #644949;
+  transition: 0.2s;
+}
 
 #circle {
   width: 6rem;
@@ -174,6 +178,23 @@ span {
   position: relative;
   top: 53rem;
   left: 89rem;
+}
+
+::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #fef6f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #463232;
+}
+
+:root {
+  scrollbar-color: #463232 #fef6f0 !important;
+  scrollbar-width: 1.5rem !important;
 }
 
 #main-header {
@@ -213,9 +234,13 @@ span {
 #icons-nav-container #icons-nav li {
   margin-left: 2.5rem;
 }
-#icons-nav-container #icons-nav li a {
+#icons-nav-container #icons-nav li i {
   font-size: 1.6rem;
   color: #463232;
+}
+#icons-nav-container #icons-nav li i:hover {
+  color: #644949;
+  transition: 0.2s;
 }
 
 .cart-badge {

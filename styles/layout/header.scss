@@ -45,9 +45,14 @@
     li {
       margin-left: 2.5rem;
 
-      a {
+      i {
         font-size: 1.6rem;
         color: $main-color;
+      }
+
+      i:hover {
+        color: $main-color-light;
+        transition: 0.2s;
       }
     }
   }
